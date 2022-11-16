@@ -1,0 +1,1634 @@
+@font-face {
+	font-family: 'cabinregular';
+	src: url('font/cabin-regular-webfont.eot');
+	src: url('font/cabin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('font/cabin-regular-webfont.woff2') format('woff2'),
+		 url('font/cabin-regular-webfont.woff') format('woff'),
+		 url('font/cabin-regular-webfont.ttf') format('truetype'),
+		 url('font/cabin-regular-webfont.svg#cabinregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+#header-1 .main-nav .navbar-nav > li a,
+.popover-content {
+	font-family: cabinregular;
+}
+
+a, a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.margin-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.min-height-60 {
+    min-height: 60px;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
+}
+
+button:focus, select:focus { outline: none; }
+
+.header-bg {
+    background-color: rgba(54, 140, 182, 0.8) !important;
+}
+.footer-bg {
+	background-color: #ACBBC2 !important;
+}
+
+.navbar-header h2 {
+	color: #fff;
+}
+
+.navbar-header a {
+	text-decoration: none;
+}
+
+#header-1 .main-nav .navbar-nav > li a {
+    text-transform: none;
+    font-weight: inherit;
+}
+
+.auto3dlogo img {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.span-icon {
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+/*MODULI*/
+.module-block {
+	padding-top: 15px;
+}
+
+.market-block {
+    color: #D98700;
+}
+
+.content-block.market-block-yellow {
+    background-color: #FFFAEF;
+    padding-top: 0;
+    margin-top: 200px;
+}
+
+.market-block-yellow .container {
+    margin-top: 15px;
+}
+
+.market-block-yellow .section-title {
+    position: absolute;
+    width: 100%;
+    top: -220px;
+}
+
+.section-title {
+	margin-bottom: 20px;
+}
+
+.filter li.active a {
+	color: #D98700;
+}
+
+/*ICONE*/
+
+.section-icon {
+	width: 45px;
+    height: 45px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+.market-icon {
+	background-image: url('imgs/market icon.png');
+}
+
+/*HEADER*/
+
+#header-1 {
+    height: 65px;
+    position: absolute;
+}
+
+#header-1 .main-nav {
+    height: 72px;
+    margin-top: -7px;
+    /*position: relative;*/
+}
+
+#header-1 .main-nav .nav {
+    margin-top: 15px;
+}
+
+.main-nav.navbar-fixed-top .container {
+	height: 72px;
+}
+
+#header-1 .main-nav .navbar-nav > li.active a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#header-1 .main-nav .navbar-nav > .nav-marketplace.active {
+    border-bottom: 7px solid #DFA82B;
+}
+
+#header-1 .main-nav .navbar-nav > .nav-news.active {
+    border-bottom: 7px solid #A2D170;
+}
+
+#header-1 .main-nav .navbar-nav > .nav-servizi.active {
+    border-bottom: 7px solid #4A90E2;
+}
+
+#header-1 .main-nav .navbar-nav > .nav-home.active {
+    border-bottom: 7px solid transparent;
+}
+
+/*SELEZIONE MODELLO*/
+
+.selezione-modello {
+    background-image: url("../images/auto/suzuki-celerio-a-cinque-porte-2.png");
+    padding: 65px 0 0;
+}
+
+.default-auto-icon {
+	background-image: url(../images/auto/Mini.png);
+    width: 43px;
+    height: 20px;
+}
+
+.selezione-modello .nessun-modello {
+	margin: 115px 0 50px;
+}
+
+.selezione-modello h4 {
+	color: #fff;
+}
+
+.circle {
+	display: block;
+    width: 110px;
+    height: 110px;
+    background: #277EA8;
+    border-radius: 110px;
+    border: 3px solid #fff;
+    margin: auto;
+    position: relative;
+    top: -40px;
+    text-align: center;
+    padding: 20px 0 0 3px;
+    text-decoration: none !important;
+}
+
+.circle.celerio, .circle.opened.celerio {
+    background: url(../images/auto/celerio.png) #fff;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: -60px 25px;
+}
+
+.circle.opened {
+	background: #33CCFF;
+    border-color: #277EA8;
+}
+
+.circle span {
+	color: #fff;
+}
+
+.circle.opened .selection-circle {
+	display: inline-block;
+}
+
+.selection-circle, .circle.opened .default-circle {
+	display: none;
+}
+
+.scegli-modello-start {
+	border-top: 1px solid #fff;
+    display: inline-block;
+    margin-top: 9px;
+}
+
+.scegli-modello-freccia {
+	display: inline-block;
+    width: 34px;
+    height: 15px;
+    background: url(imgs/triangle.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 11px;
+}
+
+.selezione-tab {
+	display: none;
+	margin-top: 25px;
+    padding: 30px;
+    color: #fff;
+}
+
+.caratteristiche-modello, .n-risultati {
+    display: none;
+}
+
+.n-risultati span {
+    color: #000;
+}
+
+.car-icon-1 {background: url(imgs/carrozzerie/1.png);}
+
+.car-icon-2 {background: url(imgs/carrozzerie/2.png);}
+
+.car-icon-3 {background: url(imgs/carrozzerie/3.png);}
+
+.car-icon-4 {background: url(imgs/carrozzerie/4.png);}
+
+.car-icon-5 {background: url(imgs/carrozzerie/5.png);}
+
+.car-icon-6 {background: url(imgs/carrozzerie/6.png);}
+
+.car-icon-7 {background: url(imgs/carrozzerie/7.png);}
+
+.car-icon-8 {background: url(imgs/carrozzerie/8.png);}
+
+li.active .car-icon, a:hover .car-icon {background-position: -67px 0;}
+
+.car-icon {
+	width: 60px;
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+
+.car-type {
+	text-transform: none;
+    color: #92badb;
+    position: relative;
+    left: -3px;
+    display: block;
+}
+
+.car-results {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.active .car-type, a:hover .car-type {
+	color: #fff;
+}
+
+.selezione-tab .nav-tabs > li {
+    margin-bottom: -1px;
+}
+
+.selezione-tab .nav-tabs > li.active > a, 
+.selezione-tab .nav-tabs > li.active > a:hover, 
+.selezione-tab .nav-tabs > li.active > a:focus {
+    border-color: #fff !important;
+}
+
+.selezione-tab #che-modello-step-3 .nav-tabs > li.active > a, 
+.selezione-tab #che-modello-step-3 .nav-tabs > li.active > a:hover, 
+.selezione-tab #che-modello-step-3 .nav-tabs > li.active > a:focus {
+    border: none !important;
+}
+
+.selezione-tab .nav-tabs > li > a {
+    margin-top: 0;
+}
+
+.selezione-tab .nav>li>a:focus, 
+.selezione-tab .nav>li>a:hover {
+    background-color: inherit;
+}
+
+.selezione-tab .tab-pane {
+    border-bottom: none;
+}
+
+.selezione-tab .nav-tabs {
+    border-bottom: 2px solid #ddd;
+}
+
+.selezione-tab #che-modello-step-3 .nav-tabs {
+    border-bottom: none;
+}
+
+.modelli-ricercati.modelli-ricercati-top {
+	background: none;
+	padding: 0;
+}
+
+.selezione-tab .tab-pane {
+	padding: 30px 0 0;
+}
+
+.modelli-ricercati.modelli-ricercati-top h4.risultati-title {
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+
+.selection-buttons.selection-buttons-fuel button{
+    width: inherit;
+    padding: 0 12px;
+}
+
+
+
+.selection-buttons button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.selection-buttons .active button {
+    background: #fff;
+    color: #2FC0F0;
+}
+
+.selection-buttons.selection-buttons-fuel li.active button {
+    background: #33CCFF;
+    color: #fff;
+    border-color: #33CCFF;
+}
+
+.selection-buttons.selection-buttons-fuel button{
+    background: #337FAE;
+    border-color: #337FAE;
+}
+
+.selection-buttons.selection-step button {
+    width: auto;
+    padding: 0 20px;
+    margin-right: 0;
+}
+
+.selection-ul li {
+    display: inline-block;
+}
+
+#ricerca-classica {
+    padding: 0;
+}
+
+.promo-3 h2 {
+    font-weight: inherit;
+}
+
+.selection-search label, .selection-search .form-group {
+    display: inline-block;
+}
+
+.selection-search .form-group input, .selection-search .form-group input:focus {
+    width: 250px;
+    margin-left: 10px;
+    background: #053558;
+    background: rgba(5, 53, 88, 0.33);
+    border-width: 1px;
+    color: #fff;
+    border-color: #fff !important;
+}
+
+.selection-search-icon {
+    background: url(imgs/search.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-size: 100%;
+    position: absolute;
+    top: 6px;
+    right: 370px;
+}
+
+.fuel-icon {
+    background: url(imgs/fuel-icon.png);
+    width: 26px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
+
+.euro-icon {
+    background: url(imgs/euro-icon.png);
+    width: 20px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 275px;
+    top: 14px;
+}
+
+.selection-price .filters-select {
+    background: #33CCFF;
+    border: #33CCFF;
+    color: #fff;
+    padding-left: 20px;
+    width: 110px;
+}
+
+#che-modello-step-1 .selection-price .filters-select {
+    width: 150px;
+    margin-left: -25px;
+}
+
+.selection-price .chevron {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.model-year-icon {
+    background: url(imgs/calendar-icon.png);
+    width: 20px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 310px;
+    top: 7px;
+
+}
+
+.selection-buttons-fuel .selection-ul.selection-price {
+    margin-left: 0;
+}
+
+.selection-buttons-fuel .selection-ul {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+
+.selezione-modello .team-2 .team-wrapper .team-item {
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 50% 50% 0 0;
+    overflow: visible;
+    margin-bottom: 40px;
+}
+
+.selezione-modello .team-2 .team-wrapper .team-item.team-item-tall {
+    margin-bottom: 200px;
+}
+
+.selezione-modello .team-thumb {
+    padding-top: 50px;
+}
+
+.selezione-modello .team-item {
+    border: none;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,4671a3+20&1+0,0+50 */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(70,113,163,0.6) 20%, rgba(70,113,163,0) 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(70,113,163,0.6) 20%,rgba(70,113,163,0) 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(70,113,163,0.6) 20%,rgba(70,113,163,0) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#004671a3',GradientType=0 ); /* IE6-9 */
+}
+
+.modelli-ricercati-top .team-item p,
+.modelli-ricercati.modelli-ricercati-top h4, .modelli-ricercati.modelli-ricercati-top h3, .modelli-ricercati.modelli-ricercati-top h2 {
+    color: #A2B8D1;
+}
+
+.modelli-ricercati.modelli-ricercati-top .auto-modello, 
+.modelli-ricercati.modelli-ricercati-top .val-medio-num,
+.modelli-ricercati.modelli-ricercati-top .team-item-tall h3, 
+.modelli-ricercati.modelli-ricercati-top .team-item-tall b {
+    color: #fff;
+}
+
+.modelli-ricercati-top .auto-modello {
+    margin: 10px 0;
+}
+
+.modelli-ricercati-top .auto-marca {
+    margin: 10px 0 20px;
+}
+
+.modelli-ricercati-top .num-annunci {
+    margin: 20px 0 0;
+}
+
+.modelli-ricercati-top .val-medio {
+    margin: 0;
+}
+
+.modelli-ricercati-top .val-medio-num {
+    margin: 0;
+}
+
+.row-one-line .row-multi-line {
+    display: none;
+}
+
+/*MODELLI PIÙ RICERCATI*/
+
+.modelli-ricercati {
+	background-color: #FCEBC3;
+}
+
+.modelli-ricercati h4, .modelli-ricercati h3, .modelli-ricercati h2 {
+    color: #d98700;
+    margin: 0;
+}
+
+.modelli-ricercati .title {
+	margin-bottom: 20px;
+}
+
+.filtra-marca {
+    margin-bottom: 20px;
+}
+
+.chevron {
+    background: url(imgs/chevron.png);
+    width: 15px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+
+.team-item {
+    border: 1px solid #979797;
+    background: #fff;
+}
+
+.riepilogo-annunci span {
+	display: block;
+}
+
+.riepilogo-annunci .auto-marca {
+	margin: 26px 0 0 13px;
+}
+
+.riepilogo-annunci .auto-modello {
+	margin: 5px 0 5px 13px;
+    font-weight: 900;
+}
+
+.riepilogo-annunci .num-annunci {
+	margin: 26px 15px 0 0;
+}
+
+.riepilogo-annunci .val-medio {
+	margin: 5px 15px 0 0;
+	line-height: 15px;
+}
+
+/*FILTRI RICERCA*/
+
+.filters-select {
+	border: 1px solid #FEE4A9;
+    background: #fff;
+    width: 170px;
+    height: 40px;
+    -webkit-appearance: none;
+    border-radius: 50px;
+    padding-left: 45px;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.location-icon {
+	background: url(imgs/distance.png);
+}
+
+.km-icon {
+	background: url(imgs/km.png);
+}
+
+.calendar-icon {
+	background: url(imgs/calendar.png);
+}
+
+.price-icon {
+	background: url(imgs/euro.png);
+}
+
+.filter-icon {
+	width: 15px;
+    height: 22px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.km-icon, .calendar-icon, .price-icon {
+	width: 20px;
+}
+
+.filter-container {
+	position: relative;
+	display: inline-block;
+	margin: 8px; 
+}
+
+.filter-detail {
+	display: block;
+	width: 170px;
+	text-align: center;
+	margin-top: 7px;
+}
+
+.isotope-gallery-container {
+	margin-top: 25px;
+}
+
+/*GALLERY*/
+.gallery-thumb {
+    width: 60%;
+    float: left;
+}
+
+.gallery-item {
+    border: 1px solid #EABD72;
+    border-radius: 0;
+    height: 118px;
+    cursor: pointer;
+}
+
+.gallery-item:hover .gallery-thumb img,
+.team-2.modelli-ricercati-top .team-wrapper .team-item:hover .team-thumb img {
+    transform: none;
+}
+
+.descrizione-annuncio {
+    width: 48%;
+    position: absolute;
+    right: 17px;
+    background: rgba(255, 255, 255, 0.87);
+    height: 116px;
+    padding-left: 10px;
+}
+
+.citta-annuncio {
+    font-weight: bold;
+    color: #000;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.km-annuncio {
+    color: #000;
+}
+
+.citta-annuncio span {
+    background: url(imgs/location-pin.png);
+    width: 11px;
+    height: 16px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 2px;
+    margin-right: 3px;
+}
+
+.km-annuncio span {
+    background: url(imgs/km-grey.png);
+    width: 12px;
+    height: 9px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 6px;
+    margin-right: 3px;
+}
+
+/*LOGO*/
+
+.logo-aci {
+    background: url(imgs/ACIlogo.png);
+    width: 15px;
+    height: 15px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+/*CHE MODELLO SEI?*/
+
+.inserisci-nome {
+    width: 275px;
+    margin: auto auto 15px;
+    background: #D0021B;
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid #33CCFF;
+}
+
+.inserisci-nome input {
+    text-align: center;
+    height: 65px;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: none;
+}
+
+.avatar-img {
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.avatar-m-f {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.avatar-m-f.active {
+    opacity: 1;
+}
+
+.avatar-img-small {
+    width: 40%;
+    margin-bottom: 0;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+}
+
+.row-eq-height h4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.row-eq-height .selection-buttons {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+/*RATING*/
+
+.starrr .fa {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.star-container {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.star-container > i {
+    color: #fff;
+}
+
+.come-ti-senti {
+    margin: 40px 0;
+}
+
+.user-rating > div {
+    height: 120px;
+}
+
+.rating-img {
+    width: 50px !important;
+}
+
+.rating-img-small {
+    width: 35px !important;
+    position: inherit;
+}
+
+.torna-indietro, .torna-indietro:hover, .torna-indietro:focus, .torna-indietro:active  {
+    color: #fff;
+}
+
+.user-avatar {
+    width: 100px;
+}
+
+.user-name {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.user-name h2, .user-name h5 {
+    margin: 0;
+}
+
+label > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+label > input + .filter-1{ /* IMAGE STYLES */
+    background: url(imgs/filtri/1.png);
+}
+label > input + .filter-2{ /* IMAGE STYLES */
+    background: url(imgs/filtri/2.png);
+}
+label > input + .filter-3{ /* IMAGE STYLES */
+    background: url(imgs/filtri/4.png);
+}
+label > input + .filter-4{ /* IMAGE STYLES */
+    background: url(imgs/filtri/7.png);
+}
+label > input + .filter-5{ /* IMAGE STYLES */
+    background: url(imgs/filtri/9.png);
+}
+label > input + .filter-6{ /* IMAGE STYLES */
+    background: url(imgs/filtri/5.png);
+}
+label > input + .filter-7{ /* IMAGE STYLES */
+    background: url(imgs/filtri/3.png);
+}
+label > input + .filter-8{ /* IMAGE STYLES */
+    background: url(imgs/filtri/6.png);
+}
+label > input + .filter-9{ /* IMAGE STYLES */
+    background: url(imgs/filtri/8.png);
+}
+label > input + .selection-filters{ /* IMAGE STYLES */
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    margin-right: 20px;
+}
+label > input:checked + .selection-filters { /* (RADIO CHECKED) IMAGE STYLES */
+    background-position-x: -74px;
+}
+
+.filtra-per {
+    position: relative;
+    top: -35px;
+    left: 15px;
+    margin-right: 40px;
+}
+
+.popover-content {
+    color: #398eb7;
+}
+
+/*NEWS*/
+
+.news-box {
+    margin: 40px 0 15px;
+}
+
+.height-1x .row, .height-3x .row, .height-6x .row {
+    height: 100%;
+    overflow: hidden;
+}
+
+.height-1x, .height-3x, .height-6x {
+    cursor: pointer;
+}
+
+.news-box img {
+    width: 100%;
+}
+
+.height-1x {
+    height: 60px;
+    background: #F3FEE9;
+    border: 1px solid #fff;
+    color: #417505;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+.height-1x p {
+    margin: 0;
+    color: #98B875 !important;
+}
+
+.height-3x {
+    height: 180px;
+}
+
+.height-6x {
+    height: 360px;
+}
+
+.news-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 1.7em;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.news-title h4 {
+    margin: 0;
+}
+
+.news-block {
+    color: #7ED321;
+    margin-bottom: 20px;
+}
+
+.news-icon {
+    background-image: url(imgs/news_icon.png);
+}
+
+.news-box-with-header {
+    background: #F0F8DC;
+}
+
+.news-box-header {
+    padding: 20px;
+}
+
+.news-block .nav.nav-tabs {
+    border-color: #80CD2B; 
+}
+
+.news-type {
+    color: #80CD2B;
+    text-transform: none;
+}
+
+.news-block .nav-tabs > li.active > a, .news-block .nav-tabs > li.active > a:hover, .news-block .nav-tabs > li.active > a:focus {
+    border-color: #80CD2B !important; 
+}
+
+.news-block .tab-pane {
+    padding: 0;
+    border-bottom: none;
+}
+
+.promo-3 a {
+    margin-top: 0;
+}
+
+/*HOME*/
+
+.mostra-tutti-annunci {
+    position: absolute;
+    bottom: 0;
+    background: rgba(217, 135, 0, 0.3);
+    width: 100%;
+}
+
+.mostra-tutti-annunci .selection-buttons {
+    margin: 20px 0;
+}
+
+.mostra-tutti-annunci button {
+    background: #FFF5DF;
+    border: none;
+    color: #BD6E27;
+}
+
+.market-block span.filter-button {
+    padding: 7px 34px;
+    border-radius: 20px;
+    background: url(imgs/filter-button.png) #FCEAC1;
+    background-repeat: no-repeat;
+    background-position: 94%;
+    background-size: 15px;
+}
+
+.news-block span.filter-button {
+    padding: 7px 34px;
+    border-radius: 20px;
+    background: url(imgs/filter-button-news.png) #C6EA98;
+    background-repeat: no-repeat;
+    background-position: 94%;
+    background-size: 15px;
+    color: #417505;
+}
+
+.carousel-modelli {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-personas {
+    position: absolute;
+    top: -115px;
+    z-index: 1;
+    left: 40px;
+    width: 100%;
+}
+
+.carousel-modelli-sfondo {
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    padding: 22px;
+    word-break: normal;
+    z-index: -1;
+}
+
+.carousel-modelli-sfondo img {
+    height: 100%;
+    width: auto;
+}
+
+.carousel-oblo {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 60px;
+    box-shadow: 0px 0px 0px 2000px rgba(217, 135, 0, 0.3);
+}
+
+.carousel-login {
+    position: relative;
+    top: 20px;
+    left: 220px;
+    color: #fff;
+    width: 240px;
+    text-shadow: 0px 0px 4px #000;
+}
+
+.carousel-login > h5, .carousel-login .form-group {
+    margin: 5px 0;
+}
+
+.carousel-modelli-blu .carousel-oblo {
+    box-shadow: 0px 0px 0px 2000px rgba(114, 185, 240, 0.55);
+}
+
+.carousel-control.left, .carousel-control.right {
+    background: none;
+}
+
+.carousel-img {
+    min-width: 100%;
+}
+
+#carousel1 p {
+    color: #fff;
+}
+
+#carousel1, #carousel1 .item {
+    height: 620px;
+}
+
+#carousel1 {
+    margin-top: -65px;
+}
+
+#carousel1 .carousel-caption-right {
+    text-align: right;
+    width: 30%;
+    left: 58%;
+    bottom: 60px;
+}
+
+#carousel1 .carousel-caption-left {
+    text-align: center;
+    width: 30%;
+    left: 12%;
+    bottom: 65px;
+}
+
+#carousel1 .selection-buttons button {
+    border-radius: 30px;
+    width: auto;
+    padding: 0 20px;
+    height: 50px;
+    font-size: 1.5em;
+}
+
+.circle.circle-transparent {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,4671a3+20&1+0,0+50 */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(70,113,163,0.6) 20%, rgba(70,113,163,0) 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(70,113,163,0.6) 20%,rgba(70,113,163,0) 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(70,113,163,0.6) 20%,rgba(70,113,163,0) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#004671a3',GradientType=0 ); /* IE6-9 */
+    top: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.circle-transparent img {
+    height: 100%;
+}
+
+.abbinamento {
+    position: relative;
+    margin: 40px 0;
+}
+
+.abbinamento-inline {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 224px;
+    vertical-align: top;
+}
+
+.circle-small {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 26px;
+    width: 60px;
+    height: 60px;
+    border-color: #fff;
+    border-width: 2px;
+    padding-top: 13px;
+    font-size: 0.8em;
+}
+
+.default-auto-icon-small {
+    background-image: url(../images/auto/Mini.png);
+    width: 27px;
+    height: 12px;
+}
+
+.circle-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 110px;
+}
+
+.caption-large {
+    left: 0 !important;
+    right: 0 !important;
+    margin-bottom: 25px;
+}
+
+
+/*HOME SERVIZI*/
+
+.services-block {
+    color: #4A90E2;
+    margin-top: 70px;
+}
+
+.services-block-2 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5fbff+0,e7f4fe+100 */
+    background: rgb(245,251,255); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(245,251,255,1) 0%, rgba(231,244,254,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(245,251,255,1) 0%,rgba(231,244,254,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(245,251,255,1) 0%,rgba(231,244,254,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5fbff', endColorstr='#e7f4fe',GradientType=1 ); /* IE6-9 */
+}
+
+.services-block-3 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5fbff+0,acd4f8+100 */
+    background: rgb(245,251,255); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(245,251,255,1) 0%, rgba(172,212,248,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(245,251,255,1) 0%,rgba(172,212,248,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(245,251,255,1) 0%,rgba(172,212,248,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5fbff', endColorstr='#acd4f8',GradientType=1 ); /* IE6-9 */
+}
+
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
+.services-block p {
+    color: #4A90E2;
+}
+
+.services-block .nav.nav-tabs {
+    border-color: #B5CFEC;
+    margin-bottom: 40px; 
+}
+
+.services-block .nav-tabs > li.active > a, .services-block .nav-tabs > li.active > a:hover, .services-block .nav-tabs > li.active > a:focus {
+    border-color: #B5CFEC !important; 
+}
+
+.services-block .tab-pane {
+    padding: 0;
+    border-bottom: none;
+}
+
+.services-block .selection-buttons button {
+    color: #4A90E2;
+    border-color: #4A90E2;
+    border-radius: 30px;
+    width: auto;
+    padding: 0 20px;
+    height: 37px;
+    font-size: 1.3em;
+    margin: 30px 0;
+}
+
+.news-block .selection-buttons button {
+    color: #7ED321;
+    border-color: #7ED321;
+    border-radius: 30px;
+    width: auto;
+    padding: 0 20px;
+    height: 33px;
+    font-size: 1.1em;
+}
+
+.services-type {
+    color: #4A90E2;
+    text-transform: none;
+}
+
+.content-block {
+    padding: 30px 0;
+}
+
+.targa-modello {
+    background: #ECF5FF;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.targa-modello h3 {
+    margin-top: 55px;
+}
+
+.targa-modello input {
+    width: 190px;
+    margin: auto;
+    border: 1px solid #A8C7E9;
+    height: 60px;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.services-compra-vendi {
+    background: url(imgs/bg-compra-vendi.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.services-compra-vendi .section-title {
+    color: #E38D00;
+}
+
+.compra-vendi-marketplace {
+    background: #EEF4F9;
+}
+
+/*NEWS SHORT*/
+.news-short {
+    background: #F3FEE9;
+    height: 260px;
+    white-space: nowrap;
+    overflow: scroll;
+    overflow-y: hidden;
+    padding: 17px;
+}
+
+.news-short-block {
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.news-short-block img {
+    width: 100%;
+}
+
+.console-icon {
+    background-image: url(imgs/console_icon.png);
+}
+.scadenze-icon {
+    background-image: url(imgs/scadenze_icon.png);
+}
+
+.easy-care-icon {
+    background-image: url(imgs/easy_care_icon.png);
+}
+
+.easy-sell-icon {
+    background-image: url(imgs/easy_sell_icon.png);
+}
+
+.badge-scadenze {
+    background-image: url(imgs/badge-scadenze-2.png);
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 5px;
+}
+
+.sconto-soci { 
+    background: #277EA8;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 5px 35px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    right: -80px;
+}
+
+.sconto-soci span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(imgs/sconto_soci.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    position: relative;
+    left: -10px;
+}
+
+/*CAROUSEL SERVIZI*/
+
+#carousel2 {
+    background: #82B2EB;
+}
+
+#carousel2 h5, #carousel2 h3 {
+    color: #fff;
+    text-shadow: none;
+}
+
+#carousel2 h5 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+#carousel2 h3 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#carousel2 .item {
+    height: 200px;
+    padding: 0 105px;
+}
+
+#carousel2 .carousel-title-container {
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+}
+
+/*profilo*/
+
+.arrow-down {
+    background: url(imgs/arrow_down.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 10px;
+    height: 7px;
+    margin-left: 6px;
+}
+
+.circle-personas {
+    padding: 0;
+    overflow: hidden;
+}
+
+.circle-personas img {
+    width: 100%;
+}
+
+#carousel3 {
+    background: url(imgs/Club-Ribbon.png);
+    background-repeat: no-repeat;
+    background-size: 115px;
+}
+
+#carousel3 .item {
+    height: 210px;
+}
+
+#carousel3 .carousel-caption {
+    text-align: left;
+}
+
+#carousel3 p {
+    text-shadow: none;
+    color: #fff;
+}
+
+#carousel3 h5 {
+    font-weight: bold;
+}
+
+.offer-badge {
+    background: url(imgs/badge.png);
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    left: -34px;
+    top: 26px;
+}
+
+.offer-medal {
+    background: url(imgs/medal.png);
+    background-size: auto 100%;
+    background-position: 5px 0;
+    width: 43px;
+    height: 22px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    right: -25px;
+    bottom: 55px;
+    text-align: right;
+}
+
+.socio-card {
+    background-image: url(imgs/card.png);
+    width: 40px;
+    height: 28px;
+    position: relative;
+    top: -4px;
+}
+
+.socio-card-go {
+    background-image: url(imgs/chevron2.png);
+    width: 7px;
+    height: 13px;
+    position: relative;
+    top: -10px;
+}
+
+.punti-esperienza {
+    background-image: url(imgs/punti-esperienza.png);
+    width: 22px;
+    height: 35px;
+}
+
+.socio-silver {
+    background-image: url(imgs/award.png);
+    width: 22px;
+    height: 35px;
+}
+
+.punti-esperienza-description {
+    display: inline-block;
+    margin: 0 60px 0 10px;
+}
+
+.socio-silver-description {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.socio-card-description {
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.user-profile h6, .user-profile h4 {
+    color: #fff;
+    margin: 0;
+}
+
+sup h6 {
+    display: inline-block;
+}
+
+.user-profile {
+    background-image: url(../images/profilo/cento_ore.jpg);
+    background-size: 50% auto;
+    background-position: 0;
+    background-attachment: inherit;
+}
+
+.user-profile .row {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,277ea8+100&0.15+0,1+50 */
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.15) 0%, rgba(20,63,84,1) 50%, rgba(39,126,168,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0.15) 0%,rgba(20,63,84,1) 50%,rgba(39,126,168,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(0,0,0,0.15) 0%,rgba(20,63,84,1) 50%,rgba(39,126,168,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', endColorstr='#277ea8',GradientType=1 ); /* IE6-9 */
+}
+
+.header-bg.header-profile {
+background-color: #277EA8 !important;
+}
+
+.vantaggi-socio {
+    text-align: right;
+    margin-top: 40px;
+    padding-right: 120px;
+}
+
+.veicolo-garage {
+    display: inline-block;
+    width: 300px;
+}
+
+.veicolo-garage img {
+    width: 100%;
+}
+
+.my-garage {
+    color: #fff;
+}
+
+.my-garage h3 {
+    color: #D3D3D3;
+}
+
+.my-garage h3.active{
+    color: #4A90E2;
+}
+
+.veicolo-garage {
+    opacity: 0.5;
+}
+
+.veicolo-garage.active {
+    opacity: 1;
+    margin: 20px;
+}
+
+.my-garage-bkg {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0079e4+0,00e9d8+100 */
+    background: rgb(0,121,228); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(0,121,228,1) 0%, rgba(0,233,216,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,121,228,1) 0%,rgba(0,233,216,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,121,228,1) 0%,rgba(0,233,216,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0079e4', endColorstr='#00e9d8',GradientType=1 ); /* IE6-9 */
+    padding: 20px;
+}
+
+.blue-border-bottom {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #B5CFEC;
+}
+
+.garage-badge {
+    color: #4A90E2;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 0.7em;
+    font-weight: bold;
+    line-height: 1.5em;
+    position: relative;
+    top: -2px;
+    left: 7px;
+}
